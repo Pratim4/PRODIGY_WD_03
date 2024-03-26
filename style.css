@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&family=Rubik+Iso&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d33e43;
+    text-align: center;
+    font-family: "Rubik Iso", system-ui;
+    font-size: 2rem;
+    color: aqua;
+    text-shadow: 3px 2px #1c1a1a;
+}
+.container{
+    height: 70vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 10vmin;
+    color: #095a17;
+    font-family: "Rubik Iso", system-ui;
+    background-color: antiquewhite;
+    text-shadow: 3px 2px #a58686;
+
+}
+.reset{
+    padding: 1rem;
+    font-size:1.25rem;
+    background-color: rgb(76, 62, 62);
+    border-radius: 1rem;
+    color: wheat;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,1);
+    font-family: "Rubik Iso", system-ui;
+
+
+}
+#new-btn{
+    padding: 1rem;
+    font-size:1.25rem;
+    background-color: rgb(76, 62, 62);
+    border-radius: 1rem;
+    color: wheat;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,1);
+    font-family: "Rubik Iso", system-ui;
+}
+#msg {
+    color: aqua;
+    font-size: 5vmin;
+    margin-bottom: 3vmin;
+    text-shadow: 1px 1px #89bbbd;
+
+    
+
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.hide{
+    display: none;
+}
